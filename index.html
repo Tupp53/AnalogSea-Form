@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>AnalogSea</title>
+<title>AnalogSea</title>
 
-	<link rel="stylesheet" type="text/css" href="index.css" />
+<link rel="stylesheet" href="index.css" />
 
 </head>
 <body>
@@ -13,22 +13,22 @@
 <!--- form -->
 	<form class="signup-form" action="/signup" accept-charset="UTF-8" method="post">
 
-	<legend>Sign Up</legend>
+		<legend>Sign Up</legend>
 
-	<label>for="user-email">email</label>
-	<input>type="email" placeholder="foo@bar.com" name="user-email" id="user_email" required/>
+		<label>for="user-email">Email</label>
+		<input>type="email" placeholder="foo@bar.com" name="user-email" id="user_email" required/>
 
-	<label>for="user-password">password</label>
-	<input>type="password" placeholder="1234pasw0rd" name="user-password" id="user-password" requried/>
+		<label>for="user-password">Password</label>
+		<input>type="password" placeholder="1234pasw0rd" label="false" name="user-password" id="user-password" requried/>
 
-	<button type="submit"/>sign up</form>
+		<button type="submit"/>sign up</button>
 
-	<p><a href="/forgot_password/new">forgot password?</a></p>
-</form>
+		<p><a href="/forgot_password/new">forgot password?</a></p>
+	</form>
 
-<div class='footer'>
-	<p>Already have an account? <a href="/login">log in</a></p>
-</div>
+	<div class='footer'>
+		<p>Already have an account? <a href="/login">log in</a></p>
+	</div>
 
 </body>
 </html>
